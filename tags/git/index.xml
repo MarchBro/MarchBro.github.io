@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on March Bro</title>
+    <link>https://marchbro.github.io/tags/git/</link>
+    <description>Recent content in Git on March Bro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Thu, 09 May 2024 05:58:19 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git - публикация</title>
+      <link>https://marchbro.github.io/posts/git-create/</link>
+      <pubDate>Thu, 09 May 2024 05:58:19 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/posts/git-create/</guid>
+      <description>Из этой публикации Вы узнаете как создать локально git репозиторий и опубликовать его на github
+mkdir Yt-Termux #coздание директории cd Yt-Termux #заходим туда echo &amp;quot;# Yt-Termux&amp;quot; &amp;gt;&amp;gt; README.md #создаём RE... git init #инициализируем git add README.md #добавляем git commit -m &amp;quot;первый коммит&amp;quot; git branch -M main git remote add origin git@github.com:MarchBro/Yt-Termux.git git push -u origin main Emoji Support 2024/05/10 Math Typesetting 2024/05/10 Placeholder Text 2024/05/10 Rich Content 2024/05/10 Markdown Syntax Guide 2024/05/10 </description>
+    </item>
+    
+    <item>
+      <title>&#43; картинка в README.md</title>
+      <link>https://marchbro.github.io/posts/imagereadme/</link>
+      <pubDate>Sat, 27 Apr 2024 11:54:25 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/posts/imagereadme/</guid>
+      <description>В этом кратком руководстве вы узнаете, как создать отдельную ветку в своем репозитории для размещения скриншотов и демонстрационных картинок для использования в файле Readme.md master-ветки.
+1. Клонируйте репозиторий Чтобы предотвратить любую потерю работы, лучше всего клонировать репозиторий в отдельном месте для выполнения этой задачи.
+2. Создайте новую ветку Создайте новую ветку в репозитории, используя в терминале команду
+git checkout --orphan assets Это создаст и переключит вас на новую ветку под названием &amp;ldquo;assets&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

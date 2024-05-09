@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fzf on March Bro</title>
+    <link>https://marchbro.github.io/tags/fzf/</link>
+    <description>Recent content in Fzf on March Bro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Sat, 27 Apr 2024 12:31:04 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/tags/fzf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Мой Oh-my-zsh &#43; плагины</title>
+      <link>https://marchbro.github.io/posts/oh-my-zsh/</link>
+      <pubDate>Sat, 27 Apr 2024 12:31:04 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/posts/oh-my-zsh/</guid>
+      <description>Настройка Oh-my-zsh и плагинов zsh-autosuggestions, zsh-syntax-highlighting, fzf
+1. Установите Oh-my-zsh с помошью curl: sh -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot; 2. Скачайте плагины : Загрузите zsh-autosuggestions из: git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions Загрyзите zsh-syntax-highlighting из: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting Установите fzf pkg install fzf 3. Отредактируйте ваш ~/.zshrc: nvim ~/.zshrc найти plugins=(git)
+Добавить zsh-autosuggestions &amp;amp; zsh-syntax-highlighting &amp;amp; fzf в секцию plugins() примерно вот так: =&amp;gt;
+plugins=( git zsh-autosuggestions zsh-syntax-highlighting fzf ) Перезагрузите терминал Ссылки: oh-my-zsh zsh-autosuggestions zsh-syntax-highlighting Emoji Support 2024/05/10 Math Typesetting 2024/05/10 Placeholder Text 2024/05/10 Rich Content 2024/05/10 Markdown Syntax Guide 2024/05/10 </description>
+    </item>
+    
+  </channel>
+</rss>

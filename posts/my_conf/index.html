@@ -1,0 +1,611 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang='ru'><head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href='https://marchbro.github.io/favicon.ico' type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Мои конфиги - March Bro</title>
+
+    
+
+    
+
+    
+    <meta name="author" content="M@rch" />
+    
+
+    
+        <meta property="og:url" content="https://marchbro.github.io/posts/my_conf/">
+  <meta property="og:site_name" content="March Bro">
+  <meta property="og:title" content="Мои конфиги">
+  <meta property="og:description" content="Для того что-бы не потерять свои конфиги, буду оставлять их тут!)
+1. Мой .zshrc # If you come from bash you might have to change your $PATH. # export PATH=$HOME/bin:/usr/local/bin:$PATH # Path to your oh-my-zsh installation. export ZSH=&#34;$HOME/.oh-my-zsh&#34; # Файлы кеша zsh не валялись под ногами export ZSH_COMPDUMP=&#34;$HOME/.cache/.zcompdump-$HOST&#34; # Set name of the theme to load --- if set to &#34;random&#34;, it will # load a random theme each time oh-my-zsh is loaded, in which case, # to know which specific one was loaded, run: echo $RANDOM_THEME # See https://github.">
+  <meta property="og:locale" content="ru">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-04-26T21:42:52+00:00">
+    <meta property="article:modified_time" content="2024-05-10T01:40:09+03:00">
+    <meta property="article:tag" content="Oh-My-Zsh">
+    <meta property="article:tag" content="Zsh">
+    <meta property="article:tag" content="Termux">
+    <meta property="article:tag" content=".Zshrc">
+    <meta property="article:tag" content="Pip">
+    <meta property="article:tag" content="Python">
+
+    
+
+    
+        <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Мои конфиги">
+<meta name="twitter:description" content="Для того что-бы не потерять свои конфиги, буду оставлять их тут!)
+1. Мой .zshrc # If you come from bash you might have to change your $PATH. # export PATH=$HOME/bin:/usr/local/bin:$PATH # Path to your oh-my-zsh installation. export ZSH=&quot;$HOME/.oh-my-zsh&quot; # Файлы кеша zsh не валялись под ногами export ZSH_COMPDUMP=&quot;$HOME/.cache/.zcompdump-$HOST&quot; # Set name of the theme to load --- if set to &quot;random&quot;, it will # load a random theme each time oh-my-zsh is loaded, in which case, # to know which specific one was loaded, run: echo $RANDOM_THEME # See https://github.">
+
+    <link rel="stylesheet" href="/style.min.fae245b6ce34259555eab2b011d31eb69cfeb04f46398e9c82df62439ad6edea66fa04d14a95b4bbf3ce9679be82b4badfed247f9962c2af62f53d0f389b424f.css" integrity="sha512-&#43;uJFts40JZVV6rKwEdMetpz&#43;sE9GOY6cgt9iQ5rW7epm&#43;gTRSpW0u/POlnm&#43;grS63&#43;0kf5liwq9i9T0POJtCTw==">
+
+
+
+    <link rel="stylesheet" href="/lib/css/prism.min.6226f06f992e0d6166b0e26724efd050dcc381202a752892ba523b1b865de2ea5e427f8f7d10de682fc35d6e7444018247d1f25db5e1e3bab17068ce191c5886.css" integrity="sha512-Yibwb5kuDWFmsOJnJO/QUNzDgSAqdSiSulI7G4Zd4upeQn&#43;PfRDeaC/DXW50RAGCR9HyXbXh47qxcGjOGRxYhg==">
+
+
+
+    
+    <script>
+        if (!('theme' in localStorage)) {
+            localStorage.theme = 'dark';
+        }
+
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+            document.documentElement.setAttribute("data-theme", "light");
+        }
+    </script>
+<script defer src="/js/header.ef6a12cbb6ff661b899d830d9eb30134ede25fc9c26aaddecec6089c686d2e45a0bf73fa531eb2aba666bfa46699790ecc7cfee38ebc17a00ccaeffd2155eea0.js" integrity="sha512-72oSy7b/ZhuJnYMNnrMBNO3iX8nCaq3ezsYInGhtLkWgv3P6Ux6yq6Zmv6RmmXkOzHz&#43;4468F6AMyu/9IVXuoA=="></script>
+
+
+
+    <script defer src="/js/zooming.684b5d075bf94d0adfa21a7e7eb9acec1ddfb2e7b47d6657981617f0db0cf50949f1172801595afa3051f51b28d67f6a2d0c41be677b59b564307d9dbe4a4fd2.js" integrity="sha512-aEtdB1v5TQrfohp&#43;frms7B3fsue0fWZXmBYX8NsM9QlJ8RcoAVla&#43;jBR9Rso1n9qLQxBvmd7WbVkMH2dvkpP0g=="></script>
+
+
+
+
+
+
+
+    
+        
+
+        
+        
+
+        
+        
+            
+        
+
+        <script defer src="/js/prism.ea52843de9ef49f2fd5ada5a4e0efb81dd05ae250cb815846dfa3fb988498c70ae2cc567a635da79ffd407054622cea929e1b5fa00977f69c48e373b728cb9cd.js" integrity="sha512-6lKEPenvSfL9WtpaTg77gd0FriUMuBWEbfo/uYhJjHCuLMVnpjXaef/UBwVGIs6pKeG1&#43;gCXf2nEjjc7coy5zQ==" data-manual></script>
+    
+
+
+
+    
+    
+    
+    <script defer src="/js/search-ru.15298d4a2ad6ece4d02a19989a7cd9b71d4def1491840f7fd940b7880209268ae505f508fdc2a8fe19c98d32b791a484852d3778b47196c92c9c4a87d0bcafff.js" integrity="sha512-FSmNSirW7OTQKhmYmnzZtx1N7xSRhA9/2UC3iAIJJorlBfUI/cKo/hnJjTK3kaSEhS03eLRxlsksnEqH0Lyv/w=="></script>
+
+
+
+
+<link rel="stylesheet" href="https://marchbro.github.io/user.css">
+</head>
+<body>
+        <main><header>
+    <div class="brand">
+        <div id="sidebar_btn">
+            <svg id="menu_icon" width="26px" height="26px" viewBox="0 0 24 24">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+</svg>
+        </div>
+
+        <div>
+            <a href="/">March Bro</a>
+        </div>
+    </div>
+
+    <div class="toolbox">
+        <div id="theme_tool">
+            <svg id="dark_mode_btn" class="toolbox-btn" width="18px" height="18px" viewBox="0 0 24 24">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+</svg>
+
+</svg>
+            <svg id="light_mode_btn" class="toolbox-btn" width="18px" height="18px" viewBox="0 0 24 24">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+</svg>
+
+</svg>
+        </div>
+
+        
+            <div id="search_tool">
+                <svg id="search_btn" class="toolbox-btn" width="18px" height="18px" viewBox="0 0 24 24">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+</svg>
+
+</svg><div id="search_menu_wrapper" class="hidden">
+    <div id="search_menu">
+        <div id="search_menu_toolbar">
+            <div id="search_menu_input_wrapper">
+                <input id="search_menu_input" type="text" placeholder='Искать посты'>
+            </div>
+            <div id="search_menu_close_btn">
+                <svg width="18px" height="18px" viewBox="0 0 24 24">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+</svg>
+            </div>
+        </div>
+        <div id="search_menu_results">
+        </div>
+    </div>
+</div>
+</div>
+        
+
+        
+    </div>
+</header>
+<nav id="navbar" class="pure-menu">
+    <ul class="pure-menu-list"><li class="navbar-item pure-menu-item ">
+                    
+                        <a href="/" class="pure-menu-link">Домой</a>
+                    
+                </li><li class="navbar-item pure-menu-item insection">
+                    
+                        <a href="/posts/" class="pure-menu-link">Все посты</a>
+                    
+                </li><li class="navbar-item pure-menu-item ">
+                    
+                        <a href="/tags/" class="pure-menu-link">Тэги</a>
+                    
+                </li><li class="navbar-item pure-menu-item ">
+                    
+                        <a href="/categories/" class="pure-menu-link">Категории</a>
+                    
+                </li><li class="navbar-item pure-menu-item ">
+                    
+                        <a href="/about_me/" class="pure-menu-link">Обо мне</a>
+                    
+                </li></ul>
+</nav>
+<div id="sidebar_canvas_overlay" class="hidden"></div>
+<div id="sidebar" class="close">
+    <ul><li>
+                    <a href="/">Домой</a>
+                </li><li>
+                    <a href="/posts/">Все посты</a>
+                </li><li>
+                    <a href="/tags/">Тэги</a>
+                </li><li>
+                    <a href="/categories/">Категории</a>
+                </li><li>
+                    <a href="/about_me/">Обо мне</a>
+                </li></ul>
+</div><div id="content" class="content-margin">
+                
+    
+    <div class="collapsible-menu-wrapper"><div class="collapsible-menu-type"><span>Содержание:</span></div><div class="collapsible-menu">
+        
+            <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-мой-zshrc">1. Мой <code>.zshrc</code></a></li>
+        <li><a href="#2-мой-termuxtermuxproperties">2. Мой <code>.termux/termux.properties</code></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        
+    </div></div>
+
+
+
+    <div class="content-margin">
+
+
+
+<article >
+    
+    
+        
+        
+    
+    <p>Для того что-бы не потерять свои конфиги, буду оставлять их тут!)</p>
+<h3 id="1-мой-zshrc">1. Мой <code>.zshrc</code></h3>
+<pre  class="mc-prism hide language-text" ><code class="language-bash"># If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH=&quot;$HOME/.oh-my-zsh&quot;
+
+# Файлы кеша zsh не валялись под ногами
+export ZSH_COMPDUMP=&quot;$HOME/.cache/.zcompdump-$HOST&quot;
+
+# Set name of the theme to load --- if set to &quot;random&quot;, it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME=&quot;crunch&quot;
+
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in $ZSH/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( &quot;robbyrussell&quot; &quot;agnoster&quot; )
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE=&quot;true&quot;
+
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE=&quot;true&quot;
+
+# Uncomment one of the following lines to change the auto-update behavior
+# zstyle ':omz:update' mode disabled  # disable automatic updates
+# zstyle ':omz:update' mode auto      # update automatically without asking
+# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
+
+# Uncomment the following line to change how often to auto-update (in days).
+# zstyle ':omz:update' frequency 13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS=&quot;true&quot;
+
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS=&quot;true&quot;
+
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE=&quot;true&quot;
+
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION=&quot;true&quot;
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# You can also set it to another string to have that shown instead of the default red dots.
+# e.g. COMPLETION_WAITING_DOTS=&quot;%F{yellow}waiting...%f&quot;
+# Caution: this setting can cause issues with multiline prompts in zsh &lt; 5.7.1 (see #5765)
+# COMPLETION_WAITING_DOTS=&quot;true&quot;
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY=&quot;true&quot;
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# You can set one of the optional three formats:
+# &quot;mm/dd/yyyy&quot;|&quot;dd.mm.yyyy&quot;|&quot;yyyy-mm-dd&quot;
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
+# HIST_STAMPS=&quot;mm/dd/yyyy&quot;
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/data/data/com.termux/files/home/zsh_patch
+
+# Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(
+	git
+	zsh-syntax-highlighting
+	fzf
+	zsh-autosuggestions
+	)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+# export MANPATH=&quot;/usr/local/man:$MANPATH&quot;
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# Compilation flags
+# export ARCHFLAGS=&quot;-arch x86_64&quot;
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig=&quot;mate ~/.zshrc&quot;
+# alias ohmyzsh=&quot;mate ~/.oh-my-zsh&quot;
+##-- После перехода в директорию вызываем ls.
+function lcd() {cd &quot;$1&quot; &amp;&amp; ls -laAGgh}
+##-- Обновление всех пакетов python
+function pipu() {for i in $(pip list -o | awk 'NR &gt; 2 {print $1}'); do pip install -U $i; done}
+##-- Запуск Arch
+function arch() {proot-distro login archlinux --user melekin --shared-tmp}
+</code></pre>
+<h3 id="2-мой-termuxtermuxproperties">2. Мой <code>.termux/termux.properties</code></h3>
+<pre  class="mc-prism hide language-text" ><code class="language-bash">### This is a `.properties` [https://en.wikipedia.org/wiki/.properties] file
+### for termux app properties and is loaded with the `java.util.Properties.load()`
+### [https://developer.android.com/reference/java/util/Properties#load(java.io.Reader)]
+### call by the termux app and must be formatted as per its spec.
+### To make changes to a property value, uncomment the property line by removing
+### any hash `#` characters at the start of the line.
+### After making required changes, save the file and run `termux-reload-settings`
+### in the terminal for changes to take effect. Some properties require app
+### process to be restarted to be updated which can be done by force stopping
+### the app from Android app settings.
+### All information here can also be found on the
+### wiki: https://wiki.termux.com/wiki/Terminal_Settings
+
+###############
+# General
+###############
+
+### Allow external applications to execute arbitrary commands within Termux.
+### This potentially could be a security issue, so option is disabled by
+### default. Uncomment to enable.
+# allow-external-apps = true
+
+### Default working directory that will be used when launching the app.
+# default-working-directory = /data/data/com.termux/files/home
+
+### Uncomment to disable toasts shown on terminal session change.
+# disable-terminal-session-change-toast = true
+
+### Uncomment to not show soft keyboard on application start.
+# hide-soft-keyboard-on-startup = true
+
+### Uncomment to let keyboard toggle button to enable or disable software
+### keyboard instead of showing/hiding it.
+# soft-keyboard-toggle-behaviour = enable/disable
+
+### Adjust terminal scrollback buffer. Max is 50000. May have negative
+### impact on performance.
+# terminal-transcript-rows = 2000
+
+### Uncomment to use volume keys for adjusting volume and not for the
+### extra keys functionality.
+# volume-keys = volume
+
+###############
+# Fullscreen mode
+###############
+
+### Uncomment to let Termux start in full screen mode.
+# fullscreen = true
+
+### Uncomment to attempt workaround layout issues when running in
+### full screen mode.
+# use-fullscreen-workaround = true
+
+###############
+# Cursor
+###############
+
+### Cursor blink rate. Values 0, 100 - 2000.
+# terminal-cursor-blink-rate = 0
+
+### Cursor style: block, bar, underline.
+# terminal-cursor-style = block
+
+###############
+# Extra keys
+###############
+
+### Settings for choosing which set of symbols to use for illustrating keys.
+### Choose between default, arrows-only, arrows-all, all and none
+# extra-keys-style = default
+
+### Force capitalize all text in extra keys row button labels.
+# extra-keys-text-all-caps = true
+
+### Default extra-key configuration
+# extra-keys = [[ESC, TAB, CTRL, ALT, {key: '-', popup: '|'}, DOWN, UP]]
+
+### Two rows with more keys
+# extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'], \
+#               ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]
+
+### Configuration with additional popup keys (swipe up from an extra key)
+# extra-keys = [[ \
+#   {key: ESC, popup: {macro: &quot;CTRL f d&quot;, display: &quot;tmux exit&quot;}}, \
+#   {key: CTRL, popup: {macro: &quot;CTRL f BKSP&quot;, display: &quot;tmux ←&quot;}}, \
+#   {key: ALT, popup: {macro: &quot;CTRL f TAB&quot;, display: &quot;tmux →&quot;}}, \
+#   {key: TAB, popup: {macro: &quot;ALT a&quot;, display: A-a}}, \
+#   {key: LEFT, popup: HOME}, \
+#   {key: DOWN, popup: PGDN}, \
+#   {key: UP, popup: PGUP}, \
+#   {key: RIGHT, popup: END}, \
+#   {macro: &quot;ALT j&quot;, display: A-j, popup: {macro: &quot;ALT g&quot;, display: A-g}}, \
+#   {key: KEYBOARD, popup: {macro: &quot;CTRL d&quot;, display: exit}} \
+# ]]
+
+### Another configuration with advanced popup key usage designed for more
+### specific use-cases. In this case, it is designed for working with Vim-like
+### editors for faster navigation
+extra-keys = [ \
+  [ \
+    { key: ESC, popup: { macro: &quot;:q\n&quot;, display: &quot;QuickExit&quot; } }, \
+    { key: '/', popup: '\\\\' }, \
+    { key: '-', popup: '_' }, \
+    { key: HOME, popup: { macro: &quot;CTRL HOME&quot;, display: &quot;Top&quot; } }, \
+    { key: UP, popup: { macro: &quot;CTRL UP&quot;, display: &quot;UP&quot; } }, \
+    { key: END, popup: { macro: &quot;CTRL END&quot;, display: &quot;End&quot; } }, \
+    { key: &quot;:&quot;, popup: &quot;;&quot; }, \
+    {key: KEYBOARD, popup: {macro: &quot;CTRL d&quot;, display: exit} } \
+  ], \
+  [ \
+    { key: TAB, popup: { macro: &quot;:wq\n&quot;, display: &quot;Write And Exit&quot; } }, \
+    { key: CTRL, popup: { macro: &quot;:w\n&quot;, display: &quot;Write&quot; } }, \
+    ALT, \
+    { key: LEFT, popup: { macro: &quot;CTRL LEFT&quot;, display: &quot;Left&quot; } }, \
+    { key: DOWN, popup: { macro: &quot;CTRL DOWN&quot;, display: &quot;Bottom&quot; } }, \
+    { key: RIGHT, popup: { macro: &quot;CTRL RIGHT&quot;, display: &quot;Right&quot; } }, \
+    { key: &quot;#&quot;, popup: &quot;$&quot; }, \
+    {macro: &quot;CTRL r&quot;, display: FZF, popup: {macro: &quot;CTRL t&quot;, display: SH} } \
+  ] \
+]
+
+###############
+# Colors/themes
+###############
+
+### Force black colors for drawer and dialogs
+# use-black-ui = true
+
+###############
+# HW keyboard shortcuts
+###############
+
+### Disable hardware keyboard shortcuts.
+# disable-hardware-keyboard-shortcuts = true
+
+### Open a new terminal with ctrl + t (volume down + t)
+# shortcut.create-session = ctrl + t
+
+### Go one session down with (for example) ctrl + 2
+# shortcut.next-session = ctrl + 2
+
+### Go one session up with (for example) ctrl + 1
+# shortcut.previous-session = ctrl + 1
+
+### Rename a session with (for example) ctrl + n
+# shortcut.rename-session = ctrl + n
+
+###############
+# Bell key
+###############
+
+### Vibrate device (default).
+# bell-character = vibrate
+
+### Beep with a sound.
+# bell-character = beep
+
+### Ignore bell character.
+# bell-character = ignore
+
+###############
+# Back key
+###############
+
+### Send the Escape key.
+# back-key=escape
+
+### Hide keyboard or leave app (default).
+# back-key=back
+
+###############
+# Keyboard issue workarounds
+###############
+
+### Letters might not appear until enter is pressed on Samsung devices
+# enforce-char-based-input = true
+
+### ctrl+space (for marking text in emacs) does not work on some devices
+# ctrl-space-workaround = true
+</code></pre>
+
+
+<ul class="list-layout">
+    
+        <li>
+            <a href="/posts/emoji-support/">Emoji Support</a>
+            <span>2024/05/10</span>
+        </li>
+    
+        <li>
+            <a href="/posts/math-typesetting/">Math Typesetting</a>
+            <span>2024/05/10</span>
+        </li>
+    
+        <li>
+            <a href="/posts/placeholder-text/">Placeholder Text</a>
+            <span>2024/05/10</span>
+        </li>
+    
+        <li>
+            <a href="/posts/rich-content/">Rich Content</a>
+            <span>2024/05/10</span>
+        </li>
+    
+        <li>
+            <a href="/posts/markdown-syntax/">Markdown Syntax Guide</a>
+            <span>2024/05/10</span>
+        </li>
+    
+</ul>
+
+</article>
+</div>
+
+
+                
+                    
+                
+            </div>
+<footer>
+    <article>Copyright © 2023-2024 by March Bro</article>
+</footer>
+
+</main>
+    </body>
+</html>

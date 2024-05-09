@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git Init on March Bro</title>
+    <link>https://marchbro.github.io/tags/git-init/</link>
+    <description>Recent content in Git Init on March Bro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Thu, 09 May 2024 05:58:19 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/tags/git-init/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git - публикация</title>
+      <link>https://marchbro.github.io/posts/git-create/</link>
+      <pubDate>Thu, 09 May 2024 05:58:19 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/posts/git-create/</guid>
+      <description>Из этой публикации Вы узнаете как создать локально git репозиторий и опубликовать его на github
+mkdir Yt-Termux #coздание директории cd Yt-Termux #заходим туда echo &amp;quot;# Yt-Termux&amp;quot; &amp;gt;&amp;gt; README.md #создаём RE... git init #инициализируем git add README.md #добавляем git commit -m &amp;quot;первый коммит&amp;quot; git branch -M main git remote add origin git@github.com:MarchBro/Yt-Termux.git git push -u origin main Emoji Support 2024/05/10 Math Typesetting 2024/05/10 Placeholder Text 2024/05/10 Rich Content 2024/05/10 Markdown Syntax Guide 2024/05/10 </description>
+    </item>
+    
+  </channel>
+</rss>

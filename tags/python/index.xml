@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on March Bro</title>
+    <link>https://marchbro.github.io/tags/python/</link>
+    <description>Recent content in Python on March Bro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Wed, 08 May 2024 21:35:58 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Консольный конфигуратор в Termux</title>
+      <link>https://marchbro.github.io/posts/termux-soft-inst/</link>
+      <pubDate>Wed, 08 May 2024 21:35:58 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/posts/termux-soft-inst/</guid>
+      <description>Цветной, консольный установщик - конфигуратор софта в Termux для работы c yt-dlp
+#!/data/data/com.termux/files/usr/bin/bash #Имя проекта: Yt-Termux #Coded by: MarchBro #Github: https://github.com/MarchBro/Yt-Termux #Дата : 09/05/2024 #Внимание!!! Будут созданы директоии ~/bin/termux-url-opener и ~/storage/shared/Youtube echo -e &amp;quot;\e[035m&amp;quot; &amp;quot;Обновление установленных пакетов\n&amp;quot; pkg update &amp;amp;&amp;amp; pkg upgrade -y echo -e &amp;quot;\e[032m&amp;quot; &amp;quot;Запрос доступа к хранилищу\n&amp;quot; echo -e &amp;quot;\e[032m&amp;quot; &amp;quot;Разрешить доступ!\n&amp;quot; sleep 2 termux-setup-storage #echo -e &amp;quot;\e[033m&amp;quot; &amp;quot;Установка python\n&amp;quot; pkg install python -y echo -e &amp;quot;\e[034m&amp;quot; &amp;quot;Установка yt-dlp mutagen\n&amp;quot; pip install yt-dlp mutagen echo -e &amp;quot;\e[032m&amp;quot; &amp;quot;Создаем директорию YouTube на картепамяти для хранения контента\n&amp;quot; mkdir ~/storage/shared/Youtube echo -e &amp;quot;Создаём папку bin\n&amp;quot; mkdir ~/bin echo -e &amp;quot;Создание Termux-URL-Opener скрипта.</description>
+    </item>
+    
+    <item>
+      <title>Мои конфиги</title>
+      <link>https://marchbro.github.io/posts/my_conf/</link>
+      <pubDate>Fri, 26 Apr 2024 21:42:52 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/posts/my_conf/</guid>
+      <description>Для того что-бы не потерять свои конфиги, буду оставлять их тут!)
+1. Мой .zshrc # If you come from bash you might have to change your $PATH. # export PATH=$HOME/bin:/usr/local/bin:$PATH # Path to your oh-my-zsh installation. export ZSH=&amp;quot;$HOME/.oh-my-zsh&amp;quot; # Файлы кеша zsh не валялись под ногами export ZSH_COMPDUMP=&amp;quot;$HOME/.cache/.zcompdump-$HOST&amp;quot; # Set name of the theme to load --- if set to &amp;quot;random&amp;quot;, it will # load a random theme each time oh-my-zsh is loaded, in which case, # to know which specific one was loaded, run: echo $RANDOM_THEME # See https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

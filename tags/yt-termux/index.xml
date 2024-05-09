@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yt-Termux on March Bro</title>
+    <link>https://marchbro.github.io/tags/yt-termux/</link>
+    <description>Recent content in Yt-Termux on March Bro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Fri, 26 Apr 2024 00:06:51 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/tags/yt-termux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yt-Termux</title>
+      <link>https://marchbro.github.io/posts/yt-termux/</link>
+      <pubDate>Fri, 26 Apr 2024 00:06:51 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/posts/yt-termux/</guid>
+      <description>Yt-Termux Легкий инструмент для загрузки любых видео, музыки или короткометражек с Youtube в 2 клика на android с помощью Termux. Позволяет редактировать id3 теги в MP3 файлах. Yt-Termux работает на новом, прогрессивном yt-dlp. Позволяет молниеносно загружать Ваши ролики на YouTube в выбраном качестве, загружать аудио m4a из клипов, ковертировать аудио в mp3 и редактировать id3 теги для нормального отображения в музыкальном проигрывателе!)
+Установка: Эта программа есть в моем гитхаб репозитории</description>
+    </item>
+    
+  </channel>
+</rss>
