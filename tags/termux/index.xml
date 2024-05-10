@@ -6,7 +6,18 @@
     <description>Recent content in Termux on March Bro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Thu, 09 May 2024 05:58:19 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/tags/termux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 May 2024 00:55:16 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/tags/termux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Публикация сайта на GitHub</title>
+      <link>https://marchbro.github.io/posts/deploy.sh/</link>
+      <pubDate>Fri, 10 May 2024 00:55:16 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/posts/deploy.sh/</guid>
+      <description>Из этого краткого руководства вы узнаете как опубликовать свой сайт на GitHub репозиторий с пощью Hugo одной командой в Termux
+В данном примере директория public/, где размещаются файлы сайта подключена к основному репозиторию с помощью git submodule То есть сам сайт находится в одной папке, в одном репозитории. А файлы участвующие в сборке - в другом.
+Добавляем папку &amp;ldquo;public/&amp;rdquo; в качестве субмодуля Важно! Самой папки в основном репозитории не должно существовать.</description>
+    </item>
+    
     <item>
       <title>Git - публикация</title>
       <link>https://marchbro.github.io/posts/git-create/</link>
