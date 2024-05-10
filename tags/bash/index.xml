@@ -6,7 +6,18 @@
     <description>Recent content in Bash on March Bro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Wed, 08 May 2024 21:35:58 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 May 2024 00:55:16 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Публикация сайта на GitHub</title>
+      <link>https://marchbro.github.io/posts/deploy.sh/</link>
+      <pubDate>Fri, 10 May 2024 00:55:16 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/posts/deploy.sh/</guid>
+      <description>Из этого краткого руководства вы узнаете как создать красивый bash скрипт для публикации контента с помощью конструктора сайта Hugo на свой GitHub репозиторий.
+В данном примере директория public/, где размещаются файлы сайта подключена к основному репозиторию с помощью git submodule То есть сам сайт находится в одной папке, в одном репозитории. А файлы участвующие в сборке - в другом.
+Добавляем папку &amp;ldquo;public/&amp;rdquo; в качестве субмодуля Важно! Самой папки в основном репозитории не должно существовать.</description>
+    </item>
+    
     <item>
       <title>Консольный конфигуратор в Termux</title>
       <link>https://marchbro.github.io/posts/termux-soft-inst/</link>

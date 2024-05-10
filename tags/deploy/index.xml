@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Github on March Bro</title>
-    <link>https://marchbro.github.io/tags/github/</link>
-    <description>Recent content in Github on March Bro</description>
+    <title>Deploy on March Bro</title>
+    <link>https://marchbro.github.io/tags/deploy/</link>
+    <description>Recent content in Deploy on March Bro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Fri, 10 May 2024 00:55:16 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 May 2024 00:55:16 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/tags/deploy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Публикация сайта на GitHub</title>
       <link>https://marchbro.github.io/posts/deploy.sh/</link>
@@ -16,16 +16,6 @@
       <description>Из этого краткого руководства вы узнаете как создать красивый bash скрипт для публикации контента с помощью конструктора сайта Hugo на свой GitHub репозиторий.
 В данном примере директория public/, где размещаются файлы сайта подключена к основному репозиторию с помощью git submodule То есть сам сайт находится в одной папке, в одном репозитории. А файлы участвующие в сборке - в другом.
 Добавляем папку &amp;ldquo;public/&amp;rdquo; в качестве субмодуля Важно! Самой папки в основном репозитории не должно существовать.</description>
-    </item>
-    
-    <item>
-      <title>Git - публикация</title>
-      <link>https://marchbro.github.io/posts/git-create/</link>
-      <pubDate>Thu, 09 May 2024 05:58:19 +0000</pubDate>
-      
-      <guid>https://marchbro.github.io/posts/git-create/</guid>
-      <description>Из этого поста ты узнаешь как создать локально git репозиторий и опубликовать его на GiThub
-mkdir Yt-Termux #coздание директории cd Yt-Termux #заходим туда echo &amp;quot;# Yt-Termux&amp;quot; &amp;gt;&amp;gt; README.md #создаём RE... git init #инициализируем git add README.md #добавляем git commit -m &amp;quot;первый коммит&amp;quot; git branch -M main git remote add origin git@github.com:MarchBro/Yt-Termux.git git push -u origin main Публикация сайта на GitHub 2024/05/10 Emoji Support 2024/05/10 Math Typesetting 2024/05/10 Placeholder Text 2024/05/10 Rich Content 2024/05/10 </description>
     </item>
     
   </channel>

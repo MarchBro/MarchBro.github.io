@@ -8,13 +8,14 @@
     <language>ru</language>
     <lastBuildDate>Fri, 10 May 2024 00:55:16 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Deploy.sh</title>
+      <title>Публикация сайта на GitHub</title>
       <link>https://marchbro.github.io/posts/deploy.sh/</link>
       <pubDate>Fri, 10 May 2024 00:55:16 +0000</pubDate>
       
       <guid>https://marchbro.github.io/posts/deploy.sh/</guid>
       <description>Из этого краткого руководства вы узнаете как создать красивый bash скрипт для публикации контента с помощью конструктора сайта Hugo на свой GitHub репозиторий.
-#!/bin/sh # Если команда завершится неудачно # то развертывание остановится set -e # Формируем приветственное сообщение printf &amp;quot;\033[0;32m Публикация обновления на GitHub...\033[0m\n&amp;quot; #mkdir -p &amp;quot;$(pwd)/resources/hugo_cache&amp;quot; #export HUGO_CACHEDIR=&amp;quot;$(pwd)/resources/hugo_cache&amp;quot; # Cборка проекта hugo -D # Переходим в папку public/ cd public # Добавим изменения в git git add . # Формируем сообщение для коммита из текста # и даты msg=&amp;quot;Сборка сайта $(date)&amp;quot; if [[ -n &amp;quot;$*&amp;quot; ]] then msg=&amp;quot;$*&amp;quot; fi # Фиксируем изменения git commit -am &amp;quot;$msg&amp;quot; # Отправляем изменения в ваш GitHub репозиторий git push origin # Переходим в директорию выше cd .</description>
+В данном примере директория public/, где размещаются файлы сайта подключена к основному репозиторию с помощью git submodule То есть сам сайт находится в одной папке, в одном репозитории. А файлы участвующие в сборке - в другом.
+Добавляем папку &amp;ldquo;public/&amp;rdquo; в качестве субмодуля Важно! Самой папки в основном репозитории не должно существовать.</description>
     </item>
     
     <item>
@@ -24,7 +25,7 @@
       
       <guid>https://marchbro.github.io/posts/git-create/</guid>
       <description>Из этого поста ты узнаешь как создать локально git репозиторий и опубликовать его на GiThub
-mkdir Yt-Termux #coздание директории cd Yt-Termux #заходим туда echo &amp;quot;# Yt-Termux&amp;quot; &amp;gt;&amp;gt; README.md #создаём RE... git init #инициализируем git add README.md #добавляем git commit -m &amp;quot;первый коммит&amp;quot; git branch -M main git remote add origin git@github.com:MarchBro/Yt-Termux.git git push -u origin main Emoji Support 2024/05/10 Math Typesetting 2024/05/10 Placeholder Text 2024/05/10 Rich Content 2024/05/10 Markdown Syntax Guide 2024/05/10 </description>
+mkdir Yt-Termux #coздание директории cd Yt-Termux #заходим туда echo &amp;quot;# Yt-Termux&amp;quot; &amp;gt;&amp;gt; README.md #создаём RE... git init #инициализируем git add README.md #добавляем git commit -m &amp;quot;первый коммит&amp;quot; git branch -M main git remote add origin git@github.com:MarchBro/Yt-Termux.git git push -u origin main Публикация сайта на GitHub 2024/05/10 Emoji Support 2024/05/10 Math Typesetting 2024/05/10 Placeholder Text 2024/05/10 Rich Content 2024/05/10 </description>
     </item>
     
     <item>

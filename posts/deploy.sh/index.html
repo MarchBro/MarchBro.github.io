@@ -19,7 +19,7 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href='https://marchbro.github.io/favicon.ico' type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Deploy.sh - March Bro</title>
+    <title>Публикация сайта на GitHub - March Bro</title>
 
     
 
@@ -32,23 +32,29 @@
     
         <meta property="og:url" content="https://marchbro.github.io/posts/deploy.sh/">
   <meta property="og:site_name" content="March Bro">
-  <meta property="og:title" content="Deploy.sh">
+  <meta property="og:title" content="Публикация сайта на GitHub">
   <meta property="og:description" content="Из этого краткого руководства вы узнаете как создать красивый bash скрипт для публикации контента с помощью конструктора сайта Hugo на свой GitHub репозиторий.
-#!/bin/sh # Если команда завершится неудачно # то развертывание остановится set -e # Формируем приветственное сообщение printf &#34;\033[0;32m Публикация обновления на GitHub...\033[0m\n&#34; #mkdir -p &#34;$(pwd)/resources/hugo_cache&#34; #export HUGO_CACHEDIR=&#34;$(pwd)/resources/hugo_cache&#34; # Cборка проекта hugo -D # Переходим в папку public/ cd public # Добавим изменения в git git add . # Формируем сообщение для коммита из текста # и даты msg=&#34;Сборка сайта $(date)&#34; if [[ -n &#34;$*&#34; ]] then msg=&#34;$*&#34; fi # Фиксируем изменения git commit -am &#34;$msg&#34; # Отправляем изменения в ваш GitHub репозиторий git push origin # Переходим в директорию выше cd .">
+В данном примере директория public/, где размещаются файлы сайта подключена к основному репозиторию с помощью git submodule То есть сам сайт находится в одной папке, в одном репозитории. А файлы участвующие в сборке - в другом.
+Добавляем папку “public/” в качестве субмодуля Важно! Самой папки в основном репозитории не должно существовать.">
   <meta property="og:locale" content="ru">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-05-10T00:55:16+00:00">
-    <meta property="article:modified_time" content="2024-05-10T12:54:37+03:00">
+    <meta property="article:modified_time" content="2024-05-10T13:20:47+03:00">
     <meta property="article:tag" content="Блог">
     <meta property="article:tag" content="Blog">
+    <meta property="article:tag" content="Hugo">
+    <meta property="article:tag" content="Deploy">
+    <meta property="article:tag" content="Github">
+    <meta property="article:tag" content="Git">
 
     
 
     
-        <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Deploy.sh">
+        <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Публикация сайта на GitHub">
 <meta name="twitter:description" content="Из этого краткого руководства вы узнаете как создать красивый bash скрипт для публикации контента с помощью конструктора сайта Hugo на свой GitHub репозиторий.
-#!/bin/sh # Если команда завершится неудачно # то развертывание остановится set -e # Формируем приветственное сообщение printf &quot;\033[0;32m Публикация обновления на GitHub...\033[0m\n&quot; #mkdir -p &quot;$(pwd)/resources/hugo_cache&quot; #export HUGO_CACHEDIR=&quot;$(pwd)/resources/hugo_cache&quot; # Cборка проекта hugo -D # Переходим в папку public/ cd public # Добавим изменения в git git add . # Формируем сообщение для коммита из текста # и даты msg=&quot;Сборка сайта $(date)&quot; if [[ -n &quot;$*&quot; ]] then msg=&quot;$*&quot; fi # Фиксируем изменения git commit -am &quot;$msg&quot; # Отправляем изменения в ваш GitHub репозиторий git push origin # Переходим в директорию выше cd .">
+В данном примере директория public/, где размещаются файлы сайта подключена к основному репозиторию с помощью git submodule То есть сам сайт находится в одной папке, в одном репозитории. А файлы участвующие в сборке - в другом.
+Добавляем папку &ldquo;public/&rdquo; в качестве субмодуля Важно! Самой папки в основном репозитории не должно существовать.">
 
     <link rel="stylesheet" href="/style.min.fae245b6ce34259555eab2b011d31eb69cfeb04f46398e9c82df62439ad6edea66fa04d14a95b4bbf3ce9679be82b4badfed247f9962c2af62f53d0f389b424f.css" integrity="sha512-&#43;uJFts40JZVV6rKwEdMetpz&#43;sE9GOY6cgt9iQ5rW7epm&#43;gTRSpW0u/POlnm&#43;grS63&#43;0kf5liwq9i9T0POJtCTw==">
 
@@ -231,6 +237,23 @@
                 </li></ul>
 </div><div id="content" class="content-margin">
                 
+    
+    <div class="collapsible-menu-wrapper"><div class="collapsible-menu-type"><span>Содержание:</span></div><div class="collapsible-menu">
+        
+            <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#добавляем-папку-public-в-качестве-субмодуля">Добавляем папку &ldquo;public/&rdquo; в качестве субмодуля</a></li>
+        <li><a href="#создаём-скрипт-для-публикации">Создаём скрипт для публикации</a></li>
+        <li><a href="#ссылки-по-теме">Ссылки по теме</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        
+    </div></div>
+
 
 
     <div class="content-margin">
@@ -244,6 +267,37 @@
         
     
     <p>Из этого краткого руководства вы узнаете как создать красивый  <code>bash</code> скрипт для публикации  контента с помощью конструктора сайта <a href="https://gohugo.io/">Hugo</a> на свой  <a href="github.com">GitHub</a> репозиторий.</p>
+<p>В данном примере директория <code>public/</code>, где размещаются файлы сайта подключена к основному репозиторию с помощью <code>git submodule</code>
+То есть сам сайт находится в одной папке, в одном репозитории. А файлы участвующие в сборке - в другом.</p>
+<h3 id="добавляем-папку-public-в-качестве-субмодуля">Добавляем папку &ldquo;public/&rdquo; в качестве субмодуля</h3>
+
+
+
+
+
+
+    
+    
+
+
+<div class="color-block content-margin" style="background-color: #fcf8e3; color: #8a6d3b;" >
+    
+Важно! Самой папки в основном репозитории не должно существовать.
+Она создается автоматически командой `hugo -D` 
+из bash скрипта ниже
+
+</div>
+
+<pre  class="mc-prism hide language-text" ><code class="language-bash">git submodule add git@github.com:MarchBro/MarchBro.github.io.git public
+</code></pre>
+<blockquote>
+<ul>
+<li><code>git@github.com:MarchBro</code> - аккаунт на GitHub.</li>
+<li><code>MarchBro.github.io.git</code> - репозиторий.</li>
+<li><code>public</code> - папка с сайтом.</li>
+</ul>
+</blockquote>
+<h3 id="создаём-скрипт-для-публикации">Создаём скрипт для публикации</h3>
 <pre  class="mc-prism hide language-text" ><code class="language-bash">#!/bin/sh
 
 # Если команда завершится неудачно
@@ -291,9 +345,19 @@ git commit -am &quot;$msg&quot;
 # Отправляем изменения в ваш GitHub репозиторий 
 git push origin 
 </code></pre>
+<h3 id="ссылки-по-теме">Ссылки по теме</h3>
+<ul>
+<li><a href="https://gohugo.io/">Hugo</a> конструктор сайтов</li>
+<li><a href="github.com">GitHub</a> сервис для хостинга и разработки</li>
+</ul>
 
 
 <ul class="list-layout">
+    
+        <li>
+            <a href="/posts/deploy.sh/">Публикация сайта на GitHub</a>
+            <span>2024/05/10</span>
+        </li>
     
         <li>
             <a href="/posts/emoji-support/">Emoji Support</a>
@@ -312,11 +376,6 @@ git push origin
     
         <li>
             <a href="/posts/rich-content/">Rich Content</a>
-            <span>2024/05/10</span>
-        </li>
-    
-        <li>
-            <a href="/posts/markdown-syntax/">Markdown Syntax Guide</a>
             <span>2024/05/10</span>
         </li>
     
