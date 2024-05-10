@@ -242,17 +242,17 @@
             </div>
         </a>
     
-        <a href="https://marchbro.github.io/posts/markdown-syntax/">
+        <a href="https://marchbro.github.io/posts/git-create/">
             <div class="postcard-item">
                 <div class="postcard-title">
-                    <span>Markdown Syntax Guide</span>
+                    <span>Git - публикация</span>
                 </div>
                 <div class="postcard-summary">
-                    <span>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-</span>
+                    <span>Из этого поста ты узнаешь как создать локально git репозиторий и опубликовать его на GiThub
+mkdir Yt-Termux #coздание директории cd Yt-Termux #заходим туда echo &amp;quot;# Yt-Termux&amp;quot; &amp;gt;&amp;gt; README.md #создаём RE... git init #инициализируем git add README.md #добавляем git commit -m &amp;quot;первый коммит&amp;quot; git branch -M main git remote add origin git@github.com:MarchBro/Yt-Termux.git git push -u origin main Yt-Termux 2024/05/10 Мои конфиги 2024/05/10 &amp;#43; картинка в README.md 2024/05/10 Мой Oh-my-zsh &amp;#43; плагины 2024/05/10 Фичи Hugo 2024/05/10 </span>
                 </div>
                 <div class="postcard-metadata">
-                    <span>2019/03/11 · 
+                    <span>2024/05/09 · 
     
         
     
@@ -267,17 +267,17 @@
             </div>
         </a>
     
-        <a href="https://marchbro.github.io/posts/rich-content/">
+        <a href="https://marchbro.github.io/posts/termux-soft-inst/">
             <div class="postcard-item">
                 <div class="postcard-title">
-                    <span>Rich Content</span>
+                    <span>Консольный конфигуратор в Termux</span>
                 </div>
                 <div class="postcard-summary">
-                    <span>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
-</span>
+                    <span>Цветной, консольный установщик - конфигуратор софта в Termux для работы c yt-dlp
+#!/data/data/com.termux/files/usr/bin/bash #Имя проекта: Yt-Termux #Coded by: MarchBro #Github: https://github.com/MarchBro/Yt-Termux #Дата : 09/05/2024 #Внимание!!! Будут созданы директоии ~/bin/termux-url-opener и ~/storage/shared/Youtube echo -e &amp;quot;\e[035m&amp;quot; &amp;quot;Обновление установленных пакетов\n&amp;quot; pkg update &amp;amp;&amp;amp; pkg upgrade -y echo -e &amp;quot;\e[032m&amp;quot; &amp;quot;Запрос доступа к хранилищу\n&amp;quot; echo -e &amp;quot;\e[032m&amp;quot; &amp;quot;Разрешить доступ!\n&amp;quot; sleep 2 termux-setup-storage #echo -e &amp;quot;\e[033m&amp;quot; &amp;quot;Установка python\n&amp;quot; pkg install python -y echo -e &amp;quot;\e[034m&amp;quot; &amp;quot;Установка yt-dlp mutagen\n&amp;quot; pip install yt-dlp mutagen echo -e &amp;quot;\e[032m&amp;quot; &amp;quot;Создаем директорию YouTube на картепамяти для хранения контента\n&amp;quot; mkdir ~/storage/shared/Youtube echo -e &amp;quot;Создаём папку bin\n&amp;quot; mkdir ~/bin echo -e &amp;quot;Создание Termux-URL-Opener скрипта.</span>
                 </div>
                 <div class="postcard-metadata">
-                    <span>2019/03/10 · 
+                    <span>2024/05/08 · 
     
         
     
@@ -292,17 +292,18 @@
             </div>
         </a>
     
-        <a href="https://marchbro.github.io/posts/placeholder-text/">
+        <a href="https://marchbro.github.io/posts/fichi-hugo/">
             <div class="postcard-item">
                 <div class="postcard-title">
-                    <span>Placeholder Text</span>
+                    <span>Фичи Hugo</span>
                 </div>
                 <div class="postcard-summary">
-                    <span>Lorem est tota propiore conpellat pectoribus de pectora summo.
-</span>
+                    <span>Здесь я буду выкладывать разные полезности HUGO, Markdown разметки для визуализации контента
+Добавление изображений Самый простой способ из того что я узнал это - положить изображение в папку проекта /static/images
+![My Test Image](/images/Yt-Termux.png) {{&amp;lt; figure src=&amp;quot;/images/Yt-Termux.png&amp;quot; title=&amp;quot;Описание картинки&amp;quot; &amp;gt;}} Добавить видео из YouTube {{&amp;lt; youtube 0RKpf3rK57I &amp;gt;}} Цветовой блок {{&amp;lt; color-block &amp;gt;}} Привет МИР {{&amp;lt; /color-block &amp;gt;}} Привет МИР {{&amp;lt; color-block style=&amp;quot;success&amp;quot; &amp;gt;}} Привет МИР {{&amp;lt; /color-block &amp;gt;}} Привет МИР {{&amp;lt; color-block style=&amp;quot;info&amp;quot; &amp;gt;}} Привет МИР {{&amp;lt; /color-block &amp;gt;}} Привет МИР {{&amp;lt; color-block style=&amp;quot;warning&amp;quot; &amp;gt;}} Привет МИР {{&amp;lt; /color-block &amp;gt;}} Привет МИР {{&amp;lt; color-block style=&amp;quot;error&amp;quot; &amp;gt;}} Привет МИР {{&amp;lt; /color-block &amp;gt;}} Привет МИР Иконка со ссылкой Параметры:</span>
                 </div>
                 <div class="postcard-metadata">
-                    <span>2019/03/09 · 
+                    <span>2024/04/28 · 
     
         
     
@@ -317,17 +318,19 @@
             </div>
         </a>
     
-        <a href="https://marchbro.github.io/posts/math-typesetting/">
+        <a href="https://marchbro.github.io/posts/oh-my-zsh/">
             <div class="postcard-item">
                 <div class="postcard-title">
-                    <span>Math Typesetting</span>
+                    <span>Мой Oh-my-zsh &#43; плагины</span>
                 </div>
                 <div class="postcard-summary">
-                    <span>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
-</span>
+                    <span>Настройка Oh-my-zsh и плагинов zsh-autosuggestions, zsh-syntax-highlighting, fzf
+1. Установите Oh-my-zsh с помошью curl: sh -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot; 2. Скачайте плагины : Загрузите zsh-autosuggestions из: git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions Загрyзите zsh-syntax-highlighting из: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting Установите fzf pkg install fzf 3. Отредактируйте ваш ~/.zshrc: nvim ~/.zshrc найти plugins=(git)
+Добавить zsh-autosuggestions &amp;amp; zsh-syntax-highlighting &amp;amp; fzf в секцию plugins() примерно вот так: =&amp;gt;
+plugins=( git zsh-autosuggestions zsh-syntax-highlighting fzf ) Перезагрузите терминал Ссылки: oh-my-zsh zsh-autosuggestions zsh-syntax-highlighting Yt-Termux 2024/05/10 Мои конфиги 2024/05/10 &amp;#43; картинка в README.</span>
                 </div>
                 <div class="postcard-metadata">
-                    <span>2019/03/08 · 
+                    <span>2024/04/27 · 
     
         
     
@@ -342,17 +345,44 @@
             </div>
         </a>
     
-        <a href="https://marchbro.github.io/posts/emoji-support/">
+        <a href="https://marchbro.github.io/posts/imagereadme/">
             <div class="postcard-item">
                 <div class="postcard-title">
-                    <span>Emoji Support</span>
+                    <span>&#43; картинка в README.md</span>
                 </div>
                 <div class="postcard-summary">
-                    <span>Emoji can be enabled in a Hugo project in a number of ways.
-</span>
+                    <span>В этом кратком руководстве вы узнаете, как создать отдельную ветку в своем репозитории для размещения скриншотов и демонстрационных картинок для использования в файле Readme.md master-ветки.
+1. Клонируйте репозиторий Чтобы предотвратить любую потерю работы, лучше всего клонировать репозиторий в отдельном месте для выполнения этой задачи.
+2. Создайте новую ветку Создайте новую ветку в репозитории, используя в терминале команду
+git checkout --orphan assets Это создаст и переключит вас на новую ветку под названием &amp;ldquo;assets&amp;rdquo;.</span>
                 </div>
                 <div class="postcard-metadata">
-                    <span>2019/03/05 · 
+                    <span>2024/04/27 · 
+    
+        
+    
+
+    
+        
+            <span>Posts</span>
+        
+    
+</span>
+                </div>
+            </div>
+        </a>
+    
+        <a href="https://marchbro.github.io/posts/my_conf/">
+            <div class="postcard-item">
+                <div class="postcard-title">
+                    <span>Мои конфиги</span>
+                </div>
+                <div class="postcard-summary">
+                    <span>Для того что-бы не потерять свои конфиги, буду оставлять их тут!)
+1. Мой .zshrc # If you come from bash you might have to change your $PATH. # export PATH=$HOME/bin:/usr/local/bin:$PATH # Path to your oh-my-zsh installation. export ZSH=&amp;quot;$HOME/.oh-my-zsh&amp;quot; # Файлы кеша zsh не валялись под ногами export ZSH_COMPDUMP=&amp;quot;$HOME/.cache/.zcompdump-$HOST&amp;quot; # Set name of the theme to load --- if set to &amp;quot;random&amp;quot;, it will # load a random theme each time oh-my-zsh is loaded, in which case, # to know which specific one was loaded, run: echo $RANDOM_THEME # See https://github.</span>
+                </div>
+                <div class="postcard-metadata">
+                    <span>2024/04/26 · 
     
         
     
@@ -368,6 +398,26 @@
         </a>
     
     
+    <ul class="pagination pagination-default">
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
 </div>
 
 

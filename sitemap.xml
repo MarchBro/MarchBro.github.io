@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://marchbro.github.io/tags/bash/</loc>
-    <lastmod>2024-05-10T15:47:59+03:00</lastmod>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/tags/blog/</loc>
-    <lastmod>2024-05-10T15:47:59+03:00</lastmod>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/categories/</loc>
-    <lastmod>2024-05-10T15:47:59+03:00</lastmod>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/categories/codeby/</loc>
-    <lastmod>2024-05-10T15:47:59+03:00</lastmod>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/tags/deploy/</loc>
     <lastmod>2024-05-10T15:47:59+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/tags/git/</loc>
-    <lastmod>2024-05-10T15:47:59+03:00</lastmod>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/tags/github/</loc>
-    <lastmod>2024-05-10T15:47:59+03:00</lastmod>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/tags/hugo/</loc>
-    <lastmod>2024-05-10T15:47:59+03:00</lastmod>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/</loc>
-    <lastmod>2024-05-10T15:47:59+03:00</lastmod>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/categories/notes/</loc>
-    <lastmod>2024-05-10T15:47:59+03:00</lastmod>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/tags/script/</loc>
     <lastmod>2024-05-10T15:47:59+03:00</lastmod>
@@ -39,27 +39,120 @@
     <lastmod>2024-05-10T15:47:59+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/tags/</loc>
-    <lastmod>2024-05-10T15:47:59+03:00</lastmod>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/categories/tech/</loc>
-    <lastmod>2024-05-10T15:47:59+03:00</lastmod>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/tags/termux/</loc>
-    <lastmod>2024-05-10T15:47:59+03:00</lastmod>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/tags/%D0%B1%D0%BB%D0%BE%D0%B3/</loc>
-    <lastmod>2024-05-10T15:47:59+03:00</lastmod>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/posts/deploy.sh/</loc>
     <lastmod>2024-05-10T15:47:59+03:00</lastmod>
   </url><url>
-    <loc>https://marchbro.github.io/tags/css/</loc>
-    <lastmod>2024-05-10T12:54:37+03:00</lastmod>
+    <loc>https://marchbro.github.io/posts/git-create/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/git-add/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/git-branch/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/git-commit--m/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/git-init/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/git-push/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/mutagen/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/pip/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/categories/projects/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/python/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/termux-url-opener/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/youtube/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/yt-dlp/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/posts/termux-soft-inst/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/tags/html/</loc>
-    <lastmod>2024-05-10T12:54:37+03:00</lastmod>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/tags/markdown/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/posts/fichi-hugo/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/fzf/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/oh-my-zsh/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/zsh/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/zsh-autosuggestions/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/zsh-syntax-highlighting/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/posts/oh-my-zsh/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/posts/imagereadme/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/git-log/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/guthub/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/readme/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/.zshrc/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/config/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/termux.properties/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/posts/my_conf/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/yt-termux/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/posts/yt-termux/</loc>
+    <lastmod>2024-05-10T15:55:18+03:00</lastmod>
+  </url><url>
+    <loc>https://marchbro.github.io/tags/css/</loc>
     <lastmod>2024-05-10T12:54:37+03:00</lastmod>
   </url><url>
     <loc>https://marchbro.github.io/posts/markdown-syntax/</loc>

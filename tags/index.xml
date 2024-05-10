@@ -98,18 +98,108 @@
     </item>
     
     <item>
-      <title>Css</title>
-      <link>https://marchbro.github.io/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Git Add</title>
+      <link>https://marchbro.github.io/tags/git-add/</link>
+      <pubDate>Thu, 09 May 2024 05:58:19 +0000</pubDate>
       
-      <guid>https://marchbro.github.io/tags/css/</guid>
+      <guid>https://marchbro.github.io/tags/git-add/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git Branch</title>
+      <link>https://marchbro.github.io/tags/git-branch/</link>
+      <pubDate>Thu, 09 May 2024 05:58:19 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/git-branch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git Commit -M</title>
+      <link>https://marchbro.github.io/tags/git-commit--m/</link>
+      <pubDate>Thu, 09 May 2024 05:58:19 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/git-commit--m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git Init</title>
+      <link>https://marchbro.github.io/tags/git-init/</link>
+      <pubDate>Thu, 09 May 2024 05:58:19 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/git-init/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git Push</title>
+      <link>https://marchbro.github.io/tags/git-push/</link>
+      <pubDate>Thu, 09 May 2024 05:58:19 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/git-push/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mutagen</title>
+      <link>https://marchbro.github.io/tags/mutagen/</link>
+      <pubDate>Wed, 08 May 2024 21:35:58 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/mutagen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pip</title>
+      <link>https://marchbro.github.io/tags/pip/</link>
+      <pubDate>Wed, 08 May 2024 21:35:58 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/pip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://marchbro.github.io/tags/python/</link>
+      <pubDate>Wed, 08 May 2024 21:35:58 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Termux-Url-Opener</title>
+      <link>https://marchbro.github.io/tags/termux-url-opener/</link>
+      <pubDate>Wed, 08 May 2024 21:35:58 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/termux-url-opener/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>YouTube</title>
+      <link>https://marchbro.github.io/tags/youtube/</link>
+      <pubDate>Wed, 08 May 2024 21:35:58 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yt-Dlp</title>
+      <link>https://marchbro.github.io/tags/yt-dlp/</link>
+      <pubDate>Wed, 08 May 2024 21:35:58 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/yt-dlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Html</title>
       <link>https://marchbro.github.io/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 Apr 2024 15:15:54 +0000</pubDate>
       
       <guid>https://marchbro.github.io/tags/html/</guid>
       <description></description>
@@ -118,9 +208,126 @@
     <item>
       <title>Markdown</title>
       <link>https://marchbro.github.io/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 Apr 2024 15:15:54 +0000</pubDate>
       
       <guid>https://marchbro.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fzf</title>
+      <link>https://marchbro.github.io/tags/fzf/</link>
+      <pubDate>Sat, 27 Apr 2024 12:31:04 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/fzf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oh-My-Zsh</title>
+      <link>https://marchbro.github.io/tags/oh-my-zsh/</link>
+      <pubDate>Sat, 27 Apr 2024 12:31:04 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/oh-my-zsh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zsh</title>
+      <link>https://marchbro.github.io/tags/zsh/</link>
+      <pubDate>Sat, 27 Apr 2024 12:31:04 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/zsh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zsh-Autosuggestions</title>
+      <link>https://marchbro.github.io/tags/zsh-autosuggestions/</link>
+      <pubDate>Sat, 27 Apr 2024 12:31:04 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/zsh-autosuggestions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zsh-Syntax-Highlighting</title>
+      <link>https://marchbro.github.io/tags/zsh-syntax-highlighting/</link>
+      <pubDate>Sat, 27 Apr 2024 12:31:04 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/zsh-syntax-highlighting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git Log</title>
+      <link>https://marchbro.github.io/tags/git-log/</link>
+      <pubDate>Sat, 27 Apr 2024 11:54:25 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/git-log/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guthub</title>
+      <link>https://marchbro.github.io/tags/guthub/</link>
+      <pubDate>Sat, 27 Apr 2024 11:54:25 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/guthub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Readme</title>
+      <link>https://marchbro.github.io/tags/readme/</link>
+      <pubDate>Sat, 27 Apr 2024 11:54:25 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/readme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.Zshrc</title>
+      <link>https://marchbro.github.io/tags/.zshrc/</link>
+      <pubDate>Fri, 26 Apr 2024 21:42:52 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/.zshrc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Config</title>
+      <link>https://marchbro.github.io/tags/config/</link>
+      <pubDate>Fri, 26 Apr 2024 21:42:52 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/config/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Termux.properties</title>
+      <link>https://marchbro.github.io/tags/termux.properties/</link>
+      <pubDate>Fri, 26 Apr 2024 21:42:52 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/termux.properties/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yt-Termux</title>
+      <link>https://marchbro.github.io/tags/yt-termux/</link>
+      <pubDate>Fri, 26 Apr 2024 00:06:51 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/yt-termux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Css</title>
+      <link>https://marchbro.github.io/tags/css/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/tags/css/</guid>
       <description></description>
     </item>
     
