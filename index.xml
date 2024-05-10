@@ -48,7 +48,7 @@
       <description>Настройка Oh-my-zsh и плагинов zsh-autosuggestions, zsh-syntax-highlighting, fzf
 1. Установите Oh-my-zsh с помошью curl: sh -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot; 2. Скачайте плагины : Загрузите zsh-autosuggestions из: git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions Загрyзите zsh-syntax-highlighting из: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting Установите fzf pkg install fzf 3. Отредактируйте ваш ~/.zshrc: nvim ~/.zshrc найти plugins=(git)
 Добавить zsh-autosuggestions &amp;amp; zsh-syntax-highlighting &amp;amp; fzf в секцию plugins() примерно вот так: =&amp;gt;
-plugins=( git zsh-autosuggestions zsh-syntax-highlighting fzf ) Перезагрузите терминал Ссылки: oh-my-zsh zsh-autosuggestions zsh-syntax-highlighting Публикация сайта на GitHub 2024/05/10 Yt-Termux 2024/05/10 Мои конфиги 2024/05/10 &amp;#43; картинка в README.</description>
+plugins=( git zsh-autosuggestions zsh-syntax-highlighting fzf ) Перезагрузите терминал Ссылки: oh-my-zsh zsh-autosuggestions zsh-syntax-highlighting Публикация сайта на GitHub 2024/05/11 Yt-Termux 2024/05/10 Мои конфиги 2024/05/10 &amp;#43; картинка в README.</description>
     </item>
     
     <item>
