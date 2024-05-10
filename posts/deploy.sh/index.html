@@ -19,7 +19,7 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href='https://marchbro.github.io/favicon.ico' type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Консольный конфигуратор в Termux - March Bro</title>
+    <title>Deploy.sh - March Bro</title>
 
     
 
@@ -30,29 +30,25 @@
     
 
     
-        <meta property="og:url" content="https://marchbro.github.io/posts/termux-soft-inst/">
+        <meta property="og:url" content="https://marchbro.github.io/posts/deploy.sh/">
   <meta property="og:site_name" content="March Bro">
-  <meta property="og:title" content="Консольный конфигуратор в Termux">
-  <meta property="og:description" content="Цветной, консольный установщик - конфигуратор софта в Termux для работы c yt-dlp
-#!/data/data/com.termux/files/usr/bin/bash #Имя проекта: Yt-Termux #Coded by: MarchBro #Github: https://github.com/MarchBro/Yt-Termux #Дата : 09/05/2024 #Внимание!!! Будут созданы директоии ~/bin/termux-url-opener и ~/storage/shared/Youtube echo -e &#34;\e[035m&#34; &#34;Обновление установленных пакетов\n&#34; pkg update &amp;&amp; pkg upgrade -y echo -e &#34;\e[032m&#34; &#34;Запрос доступа к хранилищу\n&#34; echo -e &#34;\e[032m&#34; &#34;Разрешить доступ!\n&#34; sleep 2 termux-setup-storage #echo -e &#34;\e[033m&#34; &#34;Установка python\n&#34; pkg install python -y echo -e &#34;\e[034m&#34; &#34;Установка yt-dlp mutagen\n&#34; pip install yt-dlp mutagen echo -e &#34;\e[032m&#34; &#34;Создаем директорию YouTube на картепамяти для хранения контента\n&#34; mkdir ~/storage/shared/Youtube echo -e &#34;Создаём папку bin\n&#34; mkdir ~/bin echo -e &#34;Создание Termux-URL-Opener скрипта.">
+  <meta property="og:title" content="Deploy.sh">
+  <meta property="og:description" content="Из этого краткого руководства вы узнаете как создать красивый bash скрипт для публикации контента с помощью конструктора сайта Hugo на свой GitHub репозиторий.
+#!/bin/sh set -e echo &#34;&#34; printf &#34;\033[0;32m Деплой на Github!..\033[0m\n&#34; msg=&#34;сборка сайта... $(date)&#34; if [ -n &#34;$*&#34; ]; then msg=&#34;$*&#34; fi echo &#34;&#34; echo -e &#34;\e[034m&#34; &#34;Запускаем сервер hugo в $(pwd)\n&#34; hugo -D cd public echo &#34;&#34; echo -e &#34;\e[034m&#34; &#34;Коммитим изменения и публикуем в $(pwd)\n&#34; git add .">
   <meta property="og:locale" content="ru">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-05-08T21:35:58+00:00">
-    <meta property="article:modified_time" content="2024-05-10T03:21:02+03:00">
+    <meta property="article:published_time" content="2024-05-10T00:55:16+00:00">
+    <meta property="article:modified_time" content="2024-05-10T00:55:16+00:00">
     <meta property="article:tag" content="Блог">
     <meta property="article:tag" content="Blog">
-    <meta property="article:tag" content="Yt-Dlp">
-    <meta property="article:tag" content="Mutagen">
-    <meta property="article:tag" content="Python">
-    <meta property="article:tag" content="Pip">
 
     
 
     
-        <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Консольный конфигуратор в Termux">
-<meta name="twitter:description" content="Цветной, консольный установщик - конфигуратор софта в Termux для работы c yt-dlp
-#!/data/data/com.termux/files/usr/bin/bash #Имя проекта: Yt-Termux #Coded by: MarchBro #Github: https://github.com/MarchBro/Yt-Termux #Дата : 09/05/2024 #Внимание!!! Будут созданы директоии ~/bin/termux-url-opener и ~/storage/shared/Youtube echo -e &quot;\e[035m&quot; &quot;Обновление установленных пакетов\n&quot; pkg update &amp;&amp; pkg upgrade -y echo -e &quot;\e[032m&quot; &quot;Запрос доступа к хранилищу\n&quot; echo -e &quot;\e[032m&quot; &quot;Разрешить доступ!\n&quot; sleep 2 termux-setup-storage #echo -e &quot;\e[033m&quot; &quot;Установка python\n&quot; pkg install python -y echo -e &quot;\e[034m&quot; &quot;Установка yt-dlp mutagen\n&quot; pip install yt-dlp mutagen echo -e &quot;\e[032m&quot; &quot;Создаем директорию YouTube на картепамяти для хранения контента\n&quot; mkdir ~/storage/shared/Youtube echo -e &quot;Создаём папку bin\n&quot; mkdir ~/bin echo -e &quot;Создание Termux-URL-Opener скрипта.">
+        <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Deploy.sh">
+<meta name="twitter:description" content="Из этого краткого руководства вы узнаете как создать красивый bash скрипт для публикации контента с помощью конструктора сайта Hugo на свой GitHub репозиторий.
+#!/bin/sh set -e echo &quot;&quot; printf &quot;\033[0;32m Деплой на Github!..\033[0m\n&quot; msg=&quot;сборка сайта... $(date)&quot; if [ -n &quot;$*&quot; ]; then msg=&quot;$*&quot; fi echo &quot;&quot; echo -e &quot;\e[034m&quot; &quot;Запускаем сервер hugo в $(pwd)\n&quot; hugo -D cd public echo &quot;&quot; echo -e &quot;\e[034m&quot; &quot;Коммитим изменения и публикуем в $(pwd)\n&quot; git add .">
 
     <link rel="stylesheet" href="/style.min.fae245b6ce34259555eab2b011d31eb69cfeb04f46398e9c82df62439ad6edea66fa04d14a95b4bbf3ce9679be82b4badfed247f9962c2af62f53d0f389b424f.css" integrity="sha512-&#43;uJFts40JZVV6rKwEdMetpz&#43;sE9GOY6cgt9iQ5rW7epm&#43;gTRSpW0u/POlnm&#43;grS63&#43;0kf5liwq9i9T0POJtCTw==">
 
@@ -247,48 +243,37 @@
         
         
     
-    <p>Цветной, консольный установщик - конфигуратор софта в Termux для работы c <strong><code>yt-dlp</code></strong></p>
-<pre  class="mc-prism hide language-text" ><code class="language-bash">#!/data/data/com.termux/files/usr/bin/bash
+    <p>Из этого краткого руководства вы узнаете как создать красивый  <code>bash</code> скрипт для публикации  контента с помощью конструктора сайта <a href="https://gohugo.io/">Hugo</a> на свой  <a href="github.com">GitHub</a> репозиторий.</p>
+<pre  class="mc-prism hide language-text" ><code class="language-bash">#!/bin/sh
 
-#Имя проекта: Yt-Termux
-#Coded by: MarchBro
-#Github: https://github.com/MarchBro/Yt-Termux 
-#Дата : 09/05/2024
+set -e
+echo &quot;&quot;
+printf &quot;\033[0;32m Деплой на Github!..\033[0m\n&quot;
 
-#Внимание!!! Будут созданы директоии ~/bin/termux-url-opener  и ~/storage/shared/Youtube
+msg=&quot;сборка сайта... $(date)&quot;
+if [ -n &quot;$*&quot; ]; then
+	msg=&quot;$*&quot;
+fi
 
-echo -e &quot;\e[035m&quot;  &quot;Обновление установленных пакетов\n&quot;
-pkg update &amp;&amp; pkg upgrade -y
+echo &quot;&quot;
+echo -e &quot;\e[034m&quot; &quot;Запускаем сервер hugo в $(pwd)\n&quot;
+hugo -D
 
+cd public
 
-echo -e &quot;\e[032m&quot; &quot;Запрос доступа к хранилищу\n&quot;
-echo -e &quot;\e[032m&quot; &quot;Разрешить доступ!\n&quot;
-sleep 2
-termux-setup-storage 
+echo &quot;&quot;
+echo -e &quot;\e[034m&quot; &quot;Коммитим изменения и публикуем в $(pwd)\n&quot;
+git add .
+git commit -m &quot;$msg&quot;
+git push origin
 
-#echo -e &quot;\e[033m&quot; &quot;Установка python\n&quot;
-pkg install python -y
+cd ..
+echo &quot;&quot;
+echo -e &quot;\e[034m&quot; &quot;Коммитим изменения в $(pwd)\n&quot;
+git add .
+git commit -m &quot;$msg&quot;
+# git push origin #сурсы сайта не публикую
 
-echo -e &quot;\e[034m&quot;  &quot;Установка yt-dlp mutagen\n&quot;
-pip install yt-dlp mutagen
-
-echo -e &quot;\e[032m&quot;  &quot;Создаем директорию YouTube на картепамяти для хранения контента\n&quot;
-mkdir ~/storage/shared/Youtube
-
-
-echo -e &quot;Создаём папку bin\n&quot;
-mkdir ~/bin
-
-echo -e &quot;Создание Termux-URL-Opener скрипта.\n&quot;
-
-cp termux-url-opener ~/bin/
-
-chmod +x ~/bin/termux-url-opener
-
-echo -e &quot;\n&quot;
-echo -e &quot;\e[032m&quot; &quot;Ура, выполнено!&quot;
-echo -e &quot;\e[032m&quot; &quot;Теперь вы можете поделиться любым видео  YouTube с помощью Termux.  Вам будет предложено выбрать качество загружаемого видео, после чего оно будет автоматически скачано.  Если Вы поделитесь короткометражками, они будут загружены автоматически.&quot;
-echo -e &quot;\e[033m&quot; &quot;Посетите сайт www.4pda.ru, там найдёте иного полезных программ)))&quot;
 </code></pre>
 
 

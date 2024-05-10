@@ -6,7 +6,17 @@
     <description>Recent content in Codeby on March Bro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Thu, 09 May 2024 05:58:19 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/categories/codeby/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 May 2024 00:55:16 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/categories/codeby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy.sh</title>
+      <link>https://marchbro.github.io/posts/deploy.sh/</link>
+      <pubDate>Fri, 10 May 2024 00:55:16 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/posts/deploy.sh/</guid>
+      <description>Из этого краткого руководства вы узнаете как создать красивый bash скрипт для публикации контента с помощью конструктора сайта Hugo на свой GitHub репозиторий.
+#!/bin/sh set -e echo &amp;quot;&amp;quot; printf &amp;quot;\033[0;32m Деплой на Github!..\033[0m\n&amp;quot; msg=&amp;quot;сборка сайта... $(date)&amp;quot; if [ -n &amp;quot;$*&amp;quot; ]; then msg=&amp;quot;$*&amp;quot; fi echo &amp;quot;&amp;quot; echo -e &amp;quot;\e[034m&amp;quot; &amp;quot;Запускаем сервер hugo в $(pwd)\n&amp;quot; hugo -D cd public echo &amp;quot;&amp;quot; echo -e &amp;quot;\e[034m&amp;quot; &amp;quot;Коммитим изменения и публикуем в $(pwd)\n&amp;quot; git add .</description>
+    </item>
+    
     <item>
       <title>Git - публикация</title>
       <link>https://marchbro.github.io/posts/git-create/</link>
@@ -14,7 +24,7 @@
       
       <guid>https://marchbro.github.io/posts/git-create/</guid>
       <description>Из этого поста ты узнаешь как создать локально git репозиторий и опубликовать его на GiThub
-mkdir Yt-Termux #coздание директории cd Yt-Termux #заходим туда echo &amp;quot;# Yt-Termux&amp;quot; &amp;gt;&amp;gt; README.md #создаём RE... git init #инициализируем git add README.md #добавляем git commit -m &amp;quot;первый коммит&amp;quot; git branch -M main git remote add origin git@github.com:MarchBro/Yt-Termux.git git push -u origin main Emoji Support 2024/05/10 Math Typesetting 2024/05/10 Placeholder Text 2024/05/10 Rich Content 2024/05/10 Markdown Syntax Guide 2024/05/10 </description>
+mkdir Yt-Termux #coздание директории cd Yt-Termux #заходим туда echo &amp;quot;# Yt-Termux&amp;quot; &amp;gt;&amp;gt; README.md #создаём RE... git init #инициализируем git add README.md #добавляем git commit -m &amp;quot;первый коммит&amp;quot; git branch -M main git remote add origin git@github.com:MarchBro/Yt-Termux.git git push -u origin main Deploy.sh 2024/05/10 Emoji Support 2024/05/10 Math Typesetting 2024/05/10 Placeholder Text 2024/05/10 Rich Content 2024/05/10 </description>
     </item>
     
     <item>
@@ -36,7 +46,7 @@ mkdir Yt-Termux #coздание директории cd Yt-Termux #заходи�
       <description>Настройка Oh-my-zsh и плагинов zsh-autosuggestions, zsh-syntax-highlighting, fzf
 1. Установите Oh-my-zsh с помошью curl: sh -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot; 2. Скачайте плагины : Загрузите zsh-autosuggestions из: git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions Загрyзите zsh-syntax-highlighting из: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting Установите fzf pkg install fzf 3. Отредактируйте ваш ~/.zshrc: nvim ~/.zshrc найти plugins=(git)
 Добавить zsh-autosuggestions &amp;amp; zsh-syntax-highlighting &amp;amp; fzf в секцию plugins() примерно вот так: =&amp;gt;
-plugins=( git zsh-autosuggestions zsh-syntax-highlighting fzf ) Перезагрузите терминал Ссылки: oh-my-zsh zsh-autosuggestions zsh-syntax-highlighting Emoji Support 2024/05/10 Math Typesetting 2024/05/10 Placeholder Text 2024/05/10 Rich Content 2024/05/10 Markdown Syntax Guide 2024/05/10 </description>
+plugins=( git zsh-autosuggestions zsh-syntax-highlighting fzf ) Перезагрузите терминал Ссылки: oh-my-zsh zsh-autosuggestions zsh-syntax-highlighting Deploy.</description>
     </item>
     
     <item>
