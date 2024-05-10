@@ -223,7 +223,7 @@
                 </div>
                 <div class="postcard-summary">
                     <span>Из этого краткого руководства вы узнаете как создать красивый bash скрипт для публикации контента с помощью конструктора сайта Hugo на свой GitHub репозиторий.
-#!/bin/sh set -e echo &amp;quot;&amp;quot; printf &amp;quot;\033[0;32m Деплой на Github!..\033[0m\n&amp;quot; msg=&amp;quot;сборка сайта... $(date)&amp;quot; if [ -n &amp;quot;$*&amp;quot; ]; then msg=&amp;quot;$*&amp;quot; fi echo &amp;quot;&amp;quot; echo -e &amp;quot;\e[034m&amp;quot; &amp;quot;Запускаем сервер hugo в $(pwd)\n&amp;quot; hugo -D cd public echo &amp;quot;&amp;quot; echo -e &amp;quot;\e[034m&amp;quot; &amp;quot;Коммитим изменения и публикуем в $(pwd)\n&amp;quot; git add .</span>
+#!/bin/sh # Если команда завершится неудачно # то развертывание остановится set -e # Формируем приветственное сообщение printf &amp;quot;\033[0;32m Публикация обновления на GitHub...\033[0m\n&amp;quot; #mkdir -p &amp;quot;$(pwd)/resources/hugo_cache&amp;quot; #export HUGO_CACHEDIR=&amp;quot;$(pwd)/resources/hugo_cache&amp;quot; # Cборка проекта hugo -D # Переходим в папку public/ cd public # Добавим изменения в git git add . # Формируем сообщение для коммита из текста # и даты msg=&amp;quot;Сборка сайта $(date)&amp;quot; if [[ -n &amp;quot;$*&amp;quot; ]] then msg=&amp;quot;$*&amp;quot; fi # Фиксируем изменения git commit -am &amp;quot;$msg&amp;quot; # Отправляем изменения в ваш GitHub репозиторий git push origin master # Переходим в директорию выше cd .</span>
                 </div>
                 <div class="postcard-metadata">
                     <span>2024/05/10 · 
@@ -248,7 +248,7 @@
                 </div>
                 <div class="postcard-summary">
                     <span>Из этого поста ты узнаешь как создать локально git репозиторий и опубликовать его на GiThub
-mkdir Yt-Termux #coздание директории cd Yt-Termux #заходим туда echo &amp;quot;# Yt-Termux&amp;quot; &amp;gt;&amp;gt; README.md #создаём RE... git init #инициализируем git add README.md #добавляем git commit -m &amp;quot;первый коммит&amp;quot; git branch -M main git remote add origin git@github.com:MarchBro/Yt-Termux.git git push -u origin main Deploy.sh 2024/05/10 Emoji Support 2024/05/10 Math Typesetting 2024/05/10 Placeholder Text 2024/05/10 Rich Content 2024/05/10 </span>
+mkdir Yt-Termux #coздание директории cd Yt-Termux #заходим туда echo &amp;quot;# Yt-Termux&amp;quot; &amp;gt;&amp;gt; README.md #создаём RE... git init #инициализируем git add README.md #добавляем git commit -m &amp;quot;первый коммит&amp;quot; git branch -M main git remote add origin git@github.com:MarchBro/Yt-Termux.git git push -u origin main Emoji Support 2024/05/10 Math Typesetting 2024/05/10 Placeholder Text 2024/05/10 Rich Content 2024/05/10 Markdown Syntax Guide 2024/05/10 </span>
                 </div>
                 <div class="postcard-metadata">
                     <span>2024/05/09 · 
@@ -326,7 +326,7 @@ mkdir Yt-Termux #coздание директории cd Yt-Termux #заходи�
                     <span>Настройка Oh-my-zsh и плагинов zsh-autosuggestions, zsh-syntax-highlighting, fzf
 1. Установите Oh-my-zsh с помошью curl: sh -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot; 2. Скачайте плагины : Загрузите zsh-autosuggestions из: git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions Загрyзите zsh-syntax-highlighting из: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting Установите fzf pkg install fzf 3. Отредактируйте ваш ~/.zshrc: nvim ~/.zshrc найти plugins=(git)
 Добавить zsh-autosuggestions &amp;amp; zsh-syntax-highlighting &amp;amp; fzf в секцию plugins() примерно вот так: =&amp;gt;
-plugins=( git zsh-autosuggestions zsh-syntax-highlighting fzf ) Перезагрузите терминал Ссылки: oh-my-zsh zsh-autosuggestions zsh-syntax-highlighting Deploy.</span>
+plugins=( git zsh-autosuggestions zsh-syntax-highlighting fzf ) Перезагрузите терминал Ссылки: oh-my-zsh zsh-autosuggestions zsh-syntax-highlighting Emoji Support 2024/05/10 Math Typesetting 2024/05/10 Placeholder Text 2024/05/10 Rich Content 2024/05/10 Markdown Syntax Guide 2024/05/10 </span>
                 </div>
                 <div class="postcard-metadata">
                     <span>2024/04/27 · 

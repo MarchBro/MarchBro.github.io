@@ -34,12 +34,12 @@
   <meta property="og:site_name" content="March Bro">
   <meta property="og:title" content="Deploy.sh">
   <meta property="og:description" content="Из этого краткого руководства вы узнаете как создать красивый bash скрипт для публикации контента с помощью конструктора сайта Hugo на свой GitHub репозиторий.
-#!/bin/sh set -e echo &#34;&#34; printf &#34;\033[0;32m Деплой на Github!..\033[0m\n&#34; msg=&#34;сборка сайта... $(date)&#34; if [ -n &#34;$*&#34; ]; then msg=&#34;$*&#34; fi echo &#34;&#34; echo -e &#34;\e[034m&#34; &#34;Запускаем сервер hugo в $(pwd)\n&#34; hugo -D cd public echo &#34;&#34; echo -e &#34;\e[034m&#34; &#34;Коммитим изменения и публикуем в $(pwd)\n&#34; git add .">
+#!/bin/sh # Если команда завершится неудачно # то развертывание остановится set -e # Формируем приветственное сообщение printf &#34;\033[0;32m Публикация обновления на GitHub...\033[0m\n&#34; #mkdir -p &#34;$(pwd)/resources/hugo_cache&#34; #export HUGO_CACHEDIR=&#34;$(pwd)/resources/hugo_cache&#34; # Cборка проекта hugo -D # Переходим в папку public/ cd public # Добавим изменения в git git add . # Формируем сообщение для коммита из текста # и даты msg=&#34;Сборка сайта $(date)&#34; if [[ -n &#34;$*&#34; ]] then msg=&#34;$*&#34; fi # Фиксируем изменения git commit -am &#34;$msg&#34; # Отправляем изменения в ваш GitHub репозиторий git push origin master # Переходим в директорию выше cd .">
   <meta property="og:locale" content="ru">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-05-10T00:55:16+00:00">
-    <meta property="article:modified_time" content="2024-05-10T10:29:43+03:00">
+    <meta property="article:modified_time" content="2024-05-10T12:54:37+03:00">
     <meta property="article:tag" content="Блог">
     <meta property="article:tag" content="Blog">
 
@@ -48,7 +48,7 @@
     
         <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Deploy.sh">
 <meta name="twitter:description" content="Из этого краткого руководства вы узнаете как создать красивый bash скрипт для публикации контента с помощью конструктора сайта Hugo на свой GitHub репозиторий.
-#!/bin/sh set -e echo &quot;&quot; printf &quot;\033[0;32m Деплой на Github!..\033[0m\n&quot; msg=&quot;сборка сайта... $(date)&quot; if [ -n &quot;$*&quot; ]; then msg=&quot;$*&quot; fi echo &quot;&quot; echo -e &quot;\e[034m&quot; &quot;Запускаем сервер hugo в $(pwd)\n&quot; hugo -D cd public echo &quot;&quot; echo -e &quot;\e[034m&quot; &quot;Коммитим изменения и публикуем в $(pwd)\n&quot; git add .">
+#!/bin/sh # Если команда завершится неудачно # то развертывание остановится set -e # Формируем приветственное сообщение printf &quot;\033[0;32m Публикация обновления на GitHub...\033[0m\n&quot; #mkdir -p &quot;$(pwd)/resources/hugo_cache&quot; #export HUGO_CACHEDIR=&quot;$(pwd)/resources/hugo_cache&quot; # Cборка проекта hugo -D # Переходим в папку public/ cd public # Добавим изменения в git git add . # Формируем сообщение для коммита из текста # и даты msg=&quot;Сборка сайта $(date)&quot; if [[ -n &quot;$*&quot; ]] then msg=&quot;$*&quot; fi # Фиксируем изменения git commit -am &quot;$msg&quot; # Отправляем изменения в ваш GitHub репозиторий git push origin master # Переходим в директорию выше cd .">
 
     <link rel="stylesheet" href="/style.min.fae245b6ce34259555eab2b011d31eb69cfeb04f46398e9c82df62439ad6edea66fa04d14a95b4bbf3ce9679be82b4badfed247f9962c2af62f53d0f389b424f.css" integrity="sha512-&#43;uJFts40JZVV6rKwEdMetpz&#43;sE9GOY6cgt9iQ5rW7epm&#43;gTRSpW0u/POlnm&#43;grS63&#43;0kf5liwq9i9T0POJtCTw==">
 
@@ -246,43 +246,55 @@
     <p>Из этого краткого руководства вы узнаете как создать красивый  <code>bash</code> скрипт для публикации  контента с помощью конструктора сайта <a href="https://gohugo.io/">Hugo</a> на свой  <a href="github.com">GitHub</a> репозиторий.</p>
 <pre  class="mc-prism hide language-text" ><code class="language-bash">#!/bin/sh
 
+# Если команда завершится неудачно
+# то развертывание остановится
 set -e
-echo &quot;&quot;
-printf &quot;\033[0;32m Деплой на Github!..\033[0m\n&quot;
 
-msg=&quot;сборка сайта... $(date)&quot;
-if [ -n &quot;$*&quot; ]; then
-	msg=&quot;$*&quot;
-fi
+# Формируем приветственное сообщение 
+printf &quot;\033[0;32m Публикация обновления на GitHub...\033[0m\n&quot;
 
-echo &quot;&quot;
-echo -e &quot;\e[034m&quot; &quot;Запускаем сервер hugo в $(pwd)\n&quot;
+#mkdir -p &quot;$(pwd)/resources/hugo_cache&quot;
+#export HUGO_CACHEDIR=&quot;$(pwd)/resources/hugo_cache&quot;
+
+# Cборка проекта
 hugo -D
 
+# Переходим в папку public/
 cd public
 
-echo &quot;&quot;
-echo -e &quot;\e[034m&quot; &quot;Коммитим изменения и публикуем в $(pwd)\n&quot;
+# Добавим изменения в git
 git add .
-git commit -m &quot;$msg&quot;
-git push origin
 
+# Формируем сообщение для коммита из текста
+# и даты
+msg=&quot;Сборка сайта $(date)&quot;
+if [[ -n &quot;$*&quot; ]]
+then
+    msg=&quot;$*&quot;
+fi
+
+# Фиксируем изменения 
+git commit -am &quot;$msg&quot;
+
+# Отправляем изменения в ваш GitHub репозиторий 
+git push origin master
+
+# Переходим в директорию выше
 cd ..
-echo &quot;&quot;
-echo -e &quot;\e[034m&quot; &quot;Коммитим изменения в $(pwd)\n&quot;
-git add .
-git commit -m &quot;$msg&quot;
-# git push origin #сурсы сайта не публикую
 
+# Добавим изменения в git
+git add .
+
+# Фиксируем изменения 
+git commit -am &quot;$msg&quot;
+
+# Отправляем изменения в ваш GitHub репозиторий 
+# В данном случае не отправляем!)
+#git push origin master
 </code></pre>
 
 
 <ul class="list-layout">
-    
-        <li>
-            <a href="/posts/deploy.sh/">Deploy.sh</a>
-            <span>2024/05/10</span>
-        </li>
     
         <li>
             <a href="/posts/emoji-support/">Emoji Support</a>
@@ -301,6 +313,11 @@ git commit -m &quot;$msg&quot;
     
         <li>
             <a href="/posts/rich-content/">Rich Content</a>
+            <span>2024/05/10</span>
+        </li>
+    
+        <li>
+            <a href="/posts/markdown-syntax/">Markdown Syntax Guide</a>
             <span>2024/05/10</span>
         </li>
     
