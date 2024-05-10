@@ -298,17 +298,22 @@
 </ul>
 </blockquote>
 <h3 id="2-создаём-скрипт-для-публикации">2. Создаём скрипт для публикации</h3>
-<pre  class="mc-prism hide language-text" ><code class="language-bash">#!/bin/sh
+<pre  class="mc-prism hide language-text" ><code class="language-bash">#!/bin/bash
 
 # Если команда завершится неудачно
 # то развертывание остановится
 set -e
 
 # Формируем приветственное сообщение 
+echo &quot;&quot;
 printf &quot;\033[0;32m Публикация обновления на GitHub...\033[0m\n&quot;
 
 #mkdir -p &quot;$(pwd)/resources/hugo_cache&quot;
 #export HUGO_CACHEDIR=&quot;$(pwd)/resources/hugo_cache&quot;
+
+# Разукрасим консоль и выведем сообщение
+echo &quot;&quot;
+echo -e &quot;\e[034m&quot;  &quot;Сборка...\n&quot;
 
 # Cборка проекта
 hugo -D
@@ -327,7 +332,10 @@ then
     msg=&quot;$*&quot;
 fi
 
-# Фиксируем изменения 
+echo &quot;&quot;
+echo -e &quot;\e[036m&quot;  &quot;Фиксирую изменение 1 ...\n&quot;
+
+# Фиксируем изменения  в подмодуле
 git commit -am &quot;$msg&quot;
 
 # Отправляем изменения в ваш GitHub репозиторий 
@@ -339,7 +347,10 @@ cd ..
 # Добавим изменения в git
 git add .
 
-# Фиксируем изменения 
+echo &quot;&quot;
+echo -e &quot;\e[032m&quot;  &quot;Фиксирую изменения 2 ...\n&quot;
+
+# Фиксируем изменения в основном реп.
 git commit -am &quot;$msg&quot;
 
 # Отправляем изменения в ваш GitHub репозиторий 
