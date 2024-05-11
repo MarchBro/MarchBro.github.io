@@ -8,13 +8,13 @@
     <language>ru</language>
     <lastBuildDate>Fri, 10 May 2024 00:55:16 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/tags/%D0%B1%D0%BB%D0%BE%D0%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Публикация сайта на GitHub</title>
+      <title>Публикация сайта на GitHub с помищью Termux и Hugo на Android</title>
       <link>https://marchbro.github.io/posts/deploy.sh/</link>
       <pubDate>Fri, 10 May 2024 00:55:16 +0000</pubDate>
       
       <guid>https://marchbro.github.io/posts/deploy.sh/</guid>
-      <description>Из этого краткого руководства вы узнаете как опубликовать свой сайт на GitHub репозиторий с пощью Hugo. Одной командой в Termux В данном примере директория public/, где размещаются файлы сайта подключена к основному репозиторию с помощью git submodule То есть сам сайт находится в одной папке, в одном репозитории. А файлы участвующие в сборке - в другом.
-1. Добавляем папку public/ в качестве субмодуля Важно! Самой папки в основном репозитории не должно существовать.</description>
+      <description>Публикация Hugo сайта на GitHub Из этого руководства вы узнаете как технически грамотно разместить свой сайт, созданный в Hugo, на Github сразу в двух репозиториях, одной командой в Termux на Android или linux. Для этого напишем красивый bash скрипт для публикации, сделаем его исполняемым. А почему сразу в двух? Спросите вы. Вот на этот вопрос и последующие я подробнейшим образом отвечу. Нa картинке ниже показана работа скрипта
+1. Структура каталогов Hugo my-site/ ├── archetypes/ ├── assets/ ├── content/ &amp;lt;-- Самое ценное) ├── data/ ├── i18n/ ├── layouts/ ├── public!</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@
       <description>Настройка Oh-my-zsh и плагинов zsh-autosuggestions, zsh-syntax-highlighting, fzf
 1. Установите Oh-my-zsh с помошью curl: sh -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot; 2. Скачайте плагины : Загрузите zsh-autosuggestions из: git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions Загрyзите zsh-syntax-highlighting из: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting Установите fzf pkg install fzf 3. Отредактируйте ваш ~/.zshrc: nvim ~/.zshrc найти plugins=(git)
 Добавить zsh-autosuggestions &amp;amp; zsh-syntax-highlighting &amp;amp; fzf в секцию plugins() примерно вот так: =&amp;gt;
-plugins=( git zsh-autosuggestions zsh-syntax-highlighting fzf ) Перезагрузите терминал Ссылки: oh-my-zsh zsh-autosuggestions zsh-syntax-highlighting Публикация сайта на GitHub 2024/05/11 Yt-Termux 2024/05/10 Мои конфиги 2024/05/10 &amp;#43; картинка в README.</description>
+plugins=( git zsh-autosuggestions zsh-syntax-highlighting fzf ) Перезагрузите терминал Ссылки: oh-my-zsh zsh-autosuggestions zsh-syntax-highlighting Публикация сайта на GitHub с помищью Termux и Hugo на Android 2024/05/11 Yt-Termux 2024/05/10 Мои конфиги 2024/05/10 &amp;#43; картинка в README.</description>
     </item>
     
     <item>

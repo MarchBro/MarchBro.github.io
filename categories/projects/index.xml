@@ -6,7 +6,17 @@
     <description>Recent content in Projects on March Bro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Wed, 08 May 2024 21:35:58 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 May 2024 00:55:16 +0000</lastBuildDate><atom:link href="https://marchbro.github.io/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Публикация сайта на GitHub с помищью Termux и Hugo на Android</title>
+      <link>https://marchbro.github.io/posts/deploy.sh/</link>
+      <pubDate>Fri, 10 May 2024 00:55:16 +0000</pubDate>
+      
+      <guid>https://marchbro.github.io/posts/deploy.sh/</guid>
+      <description>Публикация Hugo сайта на GitHub Из этого руководства вы узнаете как технически грамотно разместить свой сайт, созданный в Hugo, на Github сразу в двух репозиториях, одной командой в Termux на Android или linux. Для этого напишем красивый bash скрипт для публикации, сделаем его исполняемым. А почему сразу в двух? Спросите вы. Вот на этот вопрос и последующие я подробнейшим образом отвечу. Нa картинке ниже показана работа скрипта
+1. Структура каталогов Hugo my-site/ ├── archetypes/ ├── assets/ ├── content/ &amp;lt;-- Самое ценное) ├── data/ ├── i18n/ ├── layouts/ ├── public!</description>
+    </item>
+    
     <item>
       <title>Консольный конфигуратор в Termux</title>
       <link>https://marchbro.github.io/posts/termux-soft-inst/</link>
