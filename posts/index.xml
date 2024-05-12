@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>March Bro</title>
+    <title>Posts on March Bro</title>
     <link>https://marchbro.github.io/posts/</link>
-    <description>Recent content on March Bro</description>
+    <description>Recent content in Posts on March Bro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language><atom:link href="https://marchbro.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -79,24 +79,6 @@ git checkout --orphan assets Это создаст и переключит ва�
       <guid>https://marchbro.github.io/posts/yt-termux/</guid>
       <description>Yt-Termux Легкий инструмент для загрузки любых видео, музыки или короткометражек с Youtube в 2 клика на android с помощью Termux. Позволяет редактировать id3 теги в MP3 файлах. Yt-Termux работает на новом, прогрессивном yt-dlp. Позволяет молниеносно загружать Ваши ролики на YouTube в выбраном качестве, загружать аудио m4a из клипов, ковертировать аудио в mp3 и редактировать id3 теги для нормального отображения в музыкальном проигрывателе!)
 Установка: Эта программа есть в моем гитхаб репозитории</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://marchbro.github.io/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://marchbro.github.io/posts/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://marchbro.github.io/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://marchbro.github.io/posts/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
     </item>
     
     <item>
